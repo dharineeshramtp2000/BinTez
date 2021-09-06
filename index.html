@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>BinTez</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Stylish" rel="stylesheet">
+
+
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/582ef46b2a.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap Style Link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Custom Style Link -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Bootstrap JS Embedding -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section id="heading-section">
+        <h1 id="heading"><i class="fas fa-dumpster bintex-icon"></i> BinTez</h1>
+        <div id="tagline-container">
+            <p id="tagline">BinTez uses Image Recognition to classify whether the waste is Paper or Plastic(<span> It may take upto 30 seconds to fetch response as our server is currently under limitations. </span>). If you have
+                doubts on how to test, <a>Click Here.</a></p>
+        </div>
+    </section>
+
+    <section id="test-section">
+        <img id ="display-image"/>
+        <input type="file" accept="image/*" id="file-input" name="fileInput" />
+        <button id="upload-button" type="button" class="btn btn-success btn-lg">Upload Image</button>
+    </section>
+
+
+
+    <!-- <section id="footer">
+        <p id="footer-text">© 2021 Developed by Dharineeh and Karthikeyan.</p>
+    </section> -->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="src/index.js"></script>
+</body>
+
+</html>
